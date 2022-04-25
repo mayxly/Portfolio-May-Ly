@@ -182,6 +182,35 @@
           }
       }
 
+    
+      .nav_link {
+          display:flex;
+          flex-direction: column;
+          align-items:center;
+          font-size: var(--small-font-size);
+          color: var(--black);
+          font-weight: var(--font-medium);
+      }
+
+      
+      .nav_link:hover {
+          color: var(--sage);
+      }
+
+      .nav_close {
+          position: absolute;
+          right: 1.3rem;
+          bottom: 0.5rem;
+          font-size: 1.5rem;
+          cursor: pointer;
+          color: var(--sage-dull)
+      }
+
+      .nav_close:hover {
+          color: var(--sage)
+      }
+
+      
 
 
       
