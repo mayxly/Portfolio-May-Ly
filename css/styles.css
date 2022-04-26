@@ -425,20 +425,29 @@
     /************************* Resume **************************/
 
     .button {
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        display: inline-flex;
-        background-color: var(--sage-dull);
+        background-color: var(--sage-dark);
         color: #FFF;
         padding: 1rem;
         border-radius: 0.5rem;
         font-weight: var(--font-medium);
-        margin-left: 11rem;
-    
+    }
+
+    .resume_title {
+        color: hsl(var(--hue-colour), 34%, 30%);
+        font-size: var(--h1-font-size);
+        text-align: center;  
+        margin-bottom: 2rem;
+    }
+
+    .button_center {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        
     }
 
     .button:hover {
-        background-color: var(--sage-lighter);
+        background-color: var(--sage-dull);
         transition-duration: .5s;
     }
 
@@ -541,7 +550,38 @@
         }
     }
       
-    
+    @media screen and (min-width: 568px) {
+        .home_content {
+            grid-template-columns: max-content 1fr 0.5fr;
+        }
+
+        .home_scroll-button {
+            padding-left: 6rem;
+        }
+
+        .home_data {
+            grid-column: initial;
+            padding-left: 3rem;
+        }
+
+        .home_img {
+            order: 1;
+            justify-self: center;
+        }
+
+        .about_description,
+        .about_description2 {
+            padding: 2rem 2rem;
+        }
+
+        .about_item {
+            padding-left: 5rem;
+        }
+
+        .skills_container {
+            padding: 5rem 5rem;
+        }   
+    }
 
       
 
