@@ -284,8 +284,14 @@
 
     /************************* About Page **************************/
 
+    .about_me_title {
+        color: hsl(var(--hue-colour), 34%, 30%);
+        font-size: var(--h1-font-size);
+        text-align: center;  
+    }
+
     .about_description {
-        margin-top: var(--mb-2);
+        margin-top: var(--mb-1-5);
     }
 
     .about_item {
@@ -297,6 +303,13 @@
 
     .skills_container {
         row-gap: 0;
+    }
+
+    .skills_main_title {
+        color: hsl(var(--hue-colour), 34%, 30%);
+        font-size: var(--h1-font-size);
+        text-align: center;  
+        margin-bottom: 2rem;
     }
 
     .skills_header {
@@ -414,13 +427,14 @@
     .button {
         margin-top: 5rem;
         margin-bottom: 5rem;
-        display: inline-block;
+        display: inline-flex;
         background-color: var(--sage-dull);
         color: #FFF;
         padding: 1rem;
         border-radius: 0.5rem;
         font-weight: var(--font-medium);
-
+        margin-left: 11rem;
+    
     }
 
     .button:hover {
@@ -523,25 +537,11 @@
         }
 
         .skills_title {
-            font_size: var(--normal-font-size)
+            font-size: var(--normal-font-size)
         }
     }
       
-    @media screen and (min-width: 5668px) {
-        .home_content {
-            grid-template-columns: max-content 1fr 1fr;
-        }
-
-        .home_data {
-            grid-column: initial;
-        }
-
-        .home_img {
-            order: 1;
-            justify-self: center;
-
-        }
-    }
+    
 
       
 
