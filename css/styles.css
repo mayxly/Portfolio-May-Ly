@@ -10,7 +10,7 @@
     --sage: hsl(var(--hue-colour), 34%, 73%);
     --sage-lighter: hsl(var(--hue-colour), 34%, 82%);
     --sage-dull: hsl(var(--hue-colour), 8%, 61%);
-    --sade-dark: hsl(var(--hue-colour), 8%, 30%);
+    --sage-dark: hsl(var(--hue-colour), 8%, 30%);
     --black: hsl(var(--hue-colour), 8%, 8%);
     --white: hsl(var(--hue-colour), 60%, 99%);
     --container-colour: #FFF; 
@@ -287,12 +287,127 @@
         margin-left: var(--mb-1-5);
     }
 
-    
+
+    /************************* Skills Page **************************/
+
+    .skills_container {
+        row-gap: 0;
+    }
+
+    .skills_header {
+        display: flex;
+        align-items: center;
+        margin-bottom: var(--mb-2-5);
+        cursor: pointer;
+    }
+
+    .skills_icon,
+    .skills_arrow {
+        font-size: 2rem;
+        color:var(--sage);
+    }
+
+    .skills_icon {
+        margin-right: var(--mb-0-75);
+    }
+
+    .skills_title {
+        font-size: var(--h3-font-size);
+    }
+
+    .skills_arrow {
+        margin-left: auto;
+        transition: 0.4s;
+    }
+
+    .skills_titles {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: var(--mb-0-5);
+    }
+
+    .skills_name {
+        font-size: var(--normal-font-size);
+        font-weight: var(--font-medium);
+    }
+
+    .skills_bar,
+    .skills_percentage {
+        height: 5px;
+        border-radius: 0.25rem;
+    }
+
+    .skills_bar {
+        background-color: hsl(var(--hue-colour), 34%, 92%);;
+    }
+
+    .skills_percentage {
+        display: block;
+        background-color: var(--sage-dull);
+    }
+
+    .skills_c{
+        width: 90%;
+    }
+
+    .skills_java{
+        width: 70%;
+    }
+
+    .skills_python{
+        width: 70%;
+    }
+
+    .skills_html{
+        width: 80%;
+    }
+
+    .skills_css{
+        width: 90%;
+    }
+
+    .skills_react{
+        width: 70%;
+    }
+
+    .skills_django{
+        width: 60%;
+    }
+
+    .skills_springboot{
+        width: 40%;
+    }
+
+    .skills_git{
+        width: 80%;
+    }
+
+    .skills_figma{
+        width: 90%;
+    }
+
+    .skills_docker{
+        width: 40%;
+    }
+
+    .skills_close .skills_list {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .skills_open .skills_list {
+        height: max-content;
+        margin-bottom: var(--mb-2-5);
+    }
+
+    .skills_open .skills_arrow {
+        transform: rotate(-180deg);
+    }
 
 
 
 
-      
+
 
       
 
