@@ -3,19 +3,20 @@
 :root {
     --header-height: 3rem;
 
-    /*Colour*/
+    /************************* Colours **************************/
 
     --hue-colour: 102;
 
     --sage: hsl(var(--hue-colour), 34%, 73%);
     --sage-lighter: hsl(var(--hue-colour), 34%, 82%);
     --sage-dull: hsl(var(--hue-colour), 8%, 61%);
+    --sade-dark: hsl(var(--hue-colour), 8%, 30%);
     --black: hsl(var(--hue-colour), 8%, 8%);
     --white: hsl(var(--hue-colour), 60%, 99%);
     --container-colour: #FFF; 
  
 
-    /*Fonts*/
+    /************************* Fonts **************************/
 
     --body-font: 'Montserrat', sans-serif;
 
@@ -30,7 +31,8 @@
     --font-medium: 500;
     --font-semi-bold: 600;
     
-    /*Margins*/
+    /************************* Margins **************************/
+    
     --mb-0-25: 0.25rem;
     --mb-0-5: 0.5rem;
     --mb-0-75: 0.75rem;
@@ -40,12 +42,12 @@
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
 
-    /*Z Index*/
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
 }
-    /*Large Devices*/
+    /*********************** Large Devices ************************/
+
     @media screen and (min-width: 968px) {
         :root {
             --big-font-size: 3rem;
@@ -58,7 +60,7 @@
         }
     }
 
-    /*Base*/
+    /*************************  Base ****************************/
     * {
         box-sizing: border-box;
         padding: 0;
@@ -95,24 +97,25 @@
         height: auto;
       }
 
-      /*Reusable CSS Classes*/
+      /*************************  Reusable CSS Classes ****************************/
+
       .section {
         padding: 2rem 0 4rem;
       }
       
-      .section__title {
+      .section_title {
         font-size: var(--h1-font-size);
         color: var(--black);
       }
       
-      .section__subtitle {
+      .section_subtitle {
         display: block;
         font-size: var(--small-font-size);
         margin-bottom: var(--mb-3);
       }
       
-      .section__title, 
-      .section__subtitle {
+      .section_title, 
+      .section_subtitle {
         text-align: center;
       }
 
@@ -137,7 +140,7 @@
         background-color: var(--white);
       }
 
-      /*NavBar*/
+      /*************************  Nav Bar ****************************/
 
       .nav {
           max-width: 968px;
@@ -214,7 +217,7 @@
           bottom: 0;
       }
 
-      /*Home Page*/
+      /*************************  Home Page ****************************/
 
       .home_container {
           gap: 1rem;
@@ -233,7 +236,7 @@
       }
 
       .home_social-icon {
-          font-size: 1.25rem;
+          font-size: 1.8rem;
           color: var(--sage-dull);
       }
 
@@ -255,24 +258,36 @@
 
     .home_subtitle {
         font-size: var(--h3-font-size);
-        color: var(--black);
+        color: var(--sage-dull);
         font-weight: var(--font-medium);
         margin-bottom: var(--mb-0-75);
     }
 
     .home_description {
         margin-bottom: var(--mb-2);
+        color: var(--sage-dull);
     }
 
     .home_scroll-button {
         color: var(--sage-dull);
-        transition: 0.3s;
     }
 
     .home_scroll:hover {
         transform: translateY(0.25rem);
         transition: 0.3s;
     }
+
+    /************************* About Page **************************/
+
+    .about_description {
+        margin-top: var(--mb-2);
+    }
+
+    .about_item {
+        margin-left: var(--mb-1-5);
+    }
+
+    
 
 
 
