@@ -3,6 +3,7 @@
 :root {
     --header-height: 3rem;
 
+
     /************************* Colours **************************/
 
     --hue-colour: 102;
@@ -20,7 +21,7 @@
 
     --body-font: 'Montserrat', sans-serif;
 
-    --big-font: 2rem;
+    --big-font: 2.3rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
@@ -258,9 +259,9 @@
 
     .home_subtitle {
         font-size: var(--h3-font-size);
-        color: var(--sage-dull);
+        color: hsl(var(--hue-colour), 34%, 50%);
         font-weight: var(--font-medium);
-        margin-bottom: var(--mb-0-75);
+        margin-bottom: var(--mb-0-25);
     }
 
     .home_description {
@@ -404,7 +405,72 @@
         transform: rotate(-180deg);
     }
 
+    /************************* Resume **************************/
 
+    .button {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: inline-block;
+        background-color: var(--sage-dull);
+        color: #FFF;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        font-weight: var(--font-medium);
+        margin-left: 11.2rem;
+
+    }
+
+    .button:hover {
+        background-color: var(--sage-lighter);
+        transition-duration: .5s;
+    }
+
+    .button_icon {
+        font-size: 1.25rem;
+        margin-left: var(--mb-0-5);
+        transition: .3s;
+    }
+
+    /************************* Footer **************************/
+    
+    .footer {
+        padding-top: 2rem;
+    }
+
+    .footer_container {
+        row-gap: 3.5rem;
+    }
+
+    .footer_bg {
+        background-color: var(--sage-dull);
+        padding: 2rem 0 3rem;
+    }
+
+    .footer_title {
+        font-size: var(--h1-font-size);
+        margin-bottom: var(--mb-0-25);
+        color: var(--sage-lighter);
+    }
+ 
+    .footer_subtitle {
+        font-size: var(--small-font-size);
+    }
+
+    .footer_social-icon {
+        font-size: 1.8rem;
+        color: var(--white);
+        padding-right: 1rem;
+    }
+
+    .footer_social-icon:hover {
+      color: var(--sage-lighter);
+    }
+
+    .footer_copy {
+        font-size: var(--smaller-font-size);
+        text-align: center;
+        color: var(--sage-lighter);
+    }
 
 
 
