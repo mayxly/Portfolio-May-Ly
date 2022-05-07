@@ -262,7 +262,7 @@
     }
 
     .home_subtitle {
-        font-size: var(--h3-font-size);
+        font-size: 24px;
         color: hsl(var(--hue-colour), 34%, 50%);
         font-weight: var(--font-medium);
         margin-bottom: var(--mb-0-25);
@@ -271,6 +271,9 @@
     .home_description {
         margin-bottom: var(--mb-2);
         color: var(--sage-dull);
+        line-height: 18pt;
+        font-weight: 410;
+        font-size: 18px;
     }
 
     .home_scroll-button {
@@ -292,11 +295,28 @@
 
     .about_description {
         margin-top: var(--mb-1-5);
+        text-indent: 55px;
+        line-height: 20pt;
+        color: rgb(119, 120, 119);
+        font-weight: 410;
+        font-size: 18px;
+        
+    }
+
+    .about_description2 {
+        line-height: 20pt;
+        color: rgb(119, 120, 119);
+        font-weight: 410;
+        font-size: 18px;
     }
 
     .about_item {
-        margin-left: var(--mb-1-5);
+        color: rgb(119, 120, 119);
+        font-weight: 410;
+        font-size: 18px;
     }
+
+
 
 
     /************************* Skills Page **************************/
@@ -406,6 +426,10 @@
 
     .skills_figma{
         width: 70%;
+    }
+
+    .skills_canva{
+        width: 90%
     }
 
     .skills_close .skills_list {
