@@ -369,10 +369,10 @@
     }
 
     .skills_java{
-        width: 70%;
+        width: 75%;
     }
 
-    .skills_python{
+    .skills_javascript{
         width: 70%;
     }
 
@@ -381,7 +381,7 @@
     }
 
     .skills_css{
-        width: 90%;
+        width: 85%;
     }
 
     .skills_react{
@@ -397,15 +397,15 @@
     }
 
     .skills_git{
-        width: 80%;
+        width: 75%;
+    }
+
+    .skills_mysql{
+        width: 70%;
     }
 
     .skills_figma{
-        width: 90%;
-    }
-
-    .skills_docker{
-        width: 40%;
+        width: 70%;
     }
 
     .skills_close .skills_list {
@@ -443,6 +443,7 @@
         margin-top: 5rem;
         display: flex;
         justify-content: center;
+        text-align: center;
         
     }
 
@@ -603,10 +604,9 @@
         }
 
         .home_container {
-            margin-left: 15rem;
-            margin-bottom: 15rem;
+            margin-left: 22%;
         }
-            
+
         
         .home_title {
             font-size: 4rem;
@@ -638,21 +638,23 @@
             padding: 0;
         }
 
-        
-
+    
         .nav {
-            height: calc(--header-height) + 1.5rem);
+            height: calc(--header-height) + 1.5rem;
             column-gap: 1rem;
             background-color: hsl(var(--hue-colour), 34%, 92%);
             margin: 0;
             padding: 0;
         }
 
-        .nav_logo {
-            margin-left: 1rem;
+        .nav_container {
+            margin-top: 1rem;
         }
 
-        
+        .nav_logo {
+            margin-left: 1rem;
+            
+        }
 
         .nav_icon,
         .nav_close,
@@ -666,7 +668,8 @@
         }
 
         .nav_menu {
-            margin-left: 65rem;
+            float: right;
+            margin-right: 2rem;
         }
 
         .footer_container {
@@ -674,9 +677,11 @@
         }
 
         .footer_copy {
-            margin-left: 33rem;
-            display: flex;
+            text-align:justify;
         }
+        
+        
+        
 
         .scrollup {
             margin-right: 8rem;
