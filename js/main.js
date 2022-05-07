@@ -43,3 +43,8 @@ function toggleSkills() {
 skillsHeader.forEach((el) => {
     el.addEventListener('click', toggleSkills)
 })
+
+//Website visits
+function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}

@@ -275,6 +275,9 @@
         font-weight: 410;
         font-size: 18px;
     }
+    .visit {
+        margin-bottom: 3rem;
+    }
 
     .home_scroll-button {
         color: var(--sage-dull);
@@ -573,6 +576,8 @@
         .skills_title {
             font-size: var(--normal-font-size)
         }
+
+
     }
 
     /* Medium device */
