@@ -392,7 +392,7 @@
     }
 
     .skills_java{
-        width: 75%;
+        width: 85%;
     }
 
     .skills_javascript{
@@ -407,24 +407,35 @@
         width: 85%;
     }
 
-    .skills_react{
-        width: 70%;
-    }
-
-    .skills_django{
+    .skills_cplus{
         width: 60%;
     }
 
-    .skills_springboot{
-        width: 40%;
+    .skills_react{
+        width: 75%;
     }
+
+
+
+    .skills_springboot{
+        width: 65%;
+    }
+
+    .skills_bootstrap{
+        width: 65%;
+    }
+
 
     .skills_git{
         width: 75%;
     }
 
+    .skills_linux{
+        width: 75%;
+    }
+
     .skills_mysql{
-        width: 70%;
+        width: 80%;
     }
 
     .skills_figma{
